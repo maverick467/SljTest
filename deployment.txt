@@ -1,0 +1,60 @@
+后端
+准备环境
+JDK1.8、IDEA、Maven、Mysql5.7+、Navicat
+
+安装步骤
+1、打开IDEA后，选择 “open” 打开 “online-exam-backend”” 项目
+
+2、IDEA配置好 “JDK1.8” 和 “Maven”，刷新等待编译成功
+
+3、使用Navicat导入数据库文件 DB_OnlineExam.sql
+
+4、在”application.yml”中配置好数据库配置
+
+5、启动后端SpringBoot工程
+
+前端
+准备环境
+Node 16.13.2， 或者更高的版本（可能出现不兼容编译失败的情况）
+
+安装步骤
+
+1、打开 “online-exam-frontend” 目录
+
+这里可以选择使用 “cmd”、”Vscode”、”WebStorm”、”IDEA” 等能够打开和编译vue环境即可
+
+
+2、在”终端”执行命令：
+
+npm config set registry https://registry.npmmirror.com
+
+3、在”终端”执行命令：
+
+npm install
+
+*等待编译成功
+
+如果出错，执行下以下命令：
+
+npm install –legacy-peer-deps
+
+4、在”终端”执行命令：
+
+npm run dev
+
+访问路径和账号相关
+访问地址：http://localhost:9122/
+
+启动完成后显示相关登录地址
+
+访问地址：http://localhost:8088
+
+管理员：9991/zmjjkk
+
+老师：20081001 /123456
+
+学生：20224001/123456
+
+
+
+
